@@ -1,0 +1,32 @@
+{
+    "name": "ander-robson/ep01",
+    "description": "MVC PHP TIPS",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ander Robson",
+            "email": "ander.robson@gmail.com",
+            "role":  "Developer",
+            "homepage": "https://upinside.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "config": {
+        "vendor-dir": "vendor"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+    }
+}
